@@ -1,0 +1,40 @@
+.isOffline,
+.isOnline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.isOffline {
+    background-color: red;
+}
+
+.item {
+    display: flex;
+    width: 200px;
+        align-items: center;
+        justify-content:space-evenly;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.item:hover .name {
+        color:white;
+}
+
+.item:hover {
+    background-color: lightseagreen;
+}
+
+.avatar {
+    margin-right: 10px;
+}
+
