@@ -83,4 +83,3 @@ import friends from 'путь/к/friends.json';
 import friends from 'путь/к/friends.json';
 
 <FriendList friends={friends} />,
->>>>>>> 2c2ec9d412d56a86e9d549f4f626708beaa6f4c3
